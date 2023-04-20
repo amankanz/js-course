@@ -13,4 +13,14 @@ console.log(10 + 8 * 3 + 5); // Each person will pay $39 per his order.
 
 console.log((10 + 8 * 3 + 5) * 3); // In total the 3 people will pay $117 per their orders.
 
+== Lesson Exerices - 2c ==
+
+Toaster for $18.50, 2 shirts for $7.50 each. Calculate the total cost.
+
+console.log((1850 + 750 * 2) / 100); // The total cost is $33.5 
+
+
+
+
 */
+console.log((1850 + 750 * 2) / 100);
