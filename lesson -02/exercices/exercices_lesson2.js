@@ -19,8 +19,23 @@ Toaster for $18.50, 2 shirts for $7.50 each. Calculate the total cost.
 
 console.log((1850 + 750 * 2) / 100); // The total cost is $33.5 
 
+== Lesson Exercices - 2d ==
+
+Calcualte a 10% tax for the total cost of Toaster for $18.50, 2 shirts for $7.50 each.
+
+console.log(((1850 + 750 * 2) * 0.1) / 100); // The 10% tax for th total cost of Toaster and 2 shirts is $3.35. 
+
+
+== Lesson Exo - 2e ==
+
+Calculate the 20% tax for the total cost of Toaster for $18.50, 2 shirts for $7.50 each.
+
+console.log(((1850 + 750 * 2) * 0.2) / 100); // THe 20% tax for the total cost of Toaster and 2 shirts is $6.7
+
+
 
 
 
 */
-console.log((1850 + 750 * 2) / 100);
+
+console.log(((1850 + 750 * 2) * 0.2) / 100);
