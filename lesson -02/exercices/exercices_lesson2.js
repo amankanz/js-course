@@ -32,10 +32,32 @@ Calculate the 20% tax for the total cost of Toaster for $18.50, 2 shirts for $7.
 
 console.log(((1850 + 750 * 2) * 0.2) / 100); // THe 20% tax for the total cost of Toaster and 2 shirts is $6.7
 
+== SETUP: ==
+
+1 Toaster for $18.99 with $4.99 shipping fees, 1 baskettball for $20.95, and 1 T-shirt for $7.99.
+
+
+== Lesson 2 Exo - 2f ==
+
+Calculate the cost of the 1 Toaster for $18.99 before shipping, 1 baskettball for $20.95, and 1 T-shirt for $7.99
+
+console.log((1899 + 2095 + 799) / 100); // The result is $47.93 total cost of the products before shipping.
+
+
+== Lesson 2 Exo - 2g ==
+
+Calculate the Total cost of 1 Toaster for $18.99 plus $4.99 shipping fee, 1 basketball for $20.95, and 1 T-shirt for $7.99 FREE Shipping.
+
+console.log((1899 + 499 + 2095 + 799) / 100); // The Total cost of the products before tax is $52.92
+
+== Lesson 2 Exo - 2h ==
+
+Calculate the 10% tax of the total cost of 1 Toaster for $18.99 plus $4.99 shipping fee, 1 basketball for $20.95, and 1 T-shirt for $7.99 FREE Shipping.
+
+console.log(Math.round((1899 + 499 + 2095 + 799) * 0.1) / 100); // The result is $5.29 tax
 
 
 
 
 */
-
-console.log(((1850 + 750 * 2) * 0.2) / 100);
+console.log(Math.round((1899 + 499 + 2095 + 799) * 0.1) / 100);
