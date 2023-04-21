@@ -56,8 +56,30 @@ Calculate the 10% tax of the total cost of 1 Toaster for $18.99 plus $4.99 shipp
 
 console.log(Math.round((1899 + 499 + 2095 + 799) * 0.1) / 100); // The result is $5.29 tax
 
+== Lesson 2 Exo - 2i ==
+
+Calculate the order total of products (1 Toaster for $18.99 plus $4.99 shipping fee, 1 basketball for $20.95, and 1 T-shirt for $7.99 FREE Shipping) plus the esitmated tax of 10%.
+
+console.log((5292 + 529) / 100);
+
+== Lesson Exo 2 - 2l ==
+
+The temperature is 25&#8451; . Calculate the temperature in Fahrenheit. 
+
+console.log((25 * 9) / 5 + 32); // THe result is 77&#8457; Fahrenheit.
+
+== Lesson Exo 2 - 2m ==
+
+Temperature is 86&#8457;. Calculate the temperature in celsius.
+
+console.log(((86 - 32) * 5) / 9); // THe result is 30&#8451;
+
+== Lesson Exo 2 - 2n ==
+
+Temperature is -5&#8451;. Calculate the temperature in Fahrenheit.
+
+console.log((-5 * 9) / 5 + 32); // THe result is 23&#8457;
 
 
 
 */
-console.log(Math.round((1899 + 499 + 2095 + 799) * 0.1) / 100);
