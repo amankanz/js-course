@@ -69,6 +69,34 @@ Thank you, come again!`); // displays a multi-line string inside the pop-up that
           THank you, come again on a new line.
 
 
+== SETUP ==
+
+in the Amazon project, update the cart to 2 basketballs ($20.95 each) with $4.99 shipping, and 2 t-shirts ($7.99) with $4.99 shipping.
+
+== Lesson 1 Exo - 3k ==
+
+Use interpolation create the 1st line of text, use math calculate the numbers 4 and 57.88
+
+console.log(`Items(${2 + 2}): $${(2095 * 2 + 799 * 2) / 100}`); // displays the result in the console Items(4): $57.88
+
+== Lesson 1 Exo - 3l ==
+
+Create second line of text 'Shipping and handling: $9.98' (use math)
+
+console.log(`Shipping and handling: $${(499 + 499) / 100}`); // displays the result in the console Shipping and handling: $9.98
+
+== Lesson 1 Exo - 3m ==
+
+Create the 3rd line: 'Total before tax: $67.86'
+(use math)
+
+console.log(`Total before tax: $${(2095 * 2 + 799 * 2 + (499 + 499)) / 100}`); // displays the result in the console Total before tax: $67.86
+
+== Lesson 1 Exo - 3n ==
+
+Create the 4th line: 'Estimated tax(10%): $6.79' (use math and Math.round(); to calculate the exact number)
+
+console.log(`Estimated tax (10%): $${Math.round(6786 * 0.1) / 100}`); // displays the result in the console Estimated tax (10%): $6.79
 
 
 */
